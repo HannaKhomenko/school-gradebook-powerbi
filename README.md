@@ -35,7 +35,7 @@ Six CSV files with the school gradebook:
 
 **Data model.** `grades` is the fact table. `students`, `subjects`, `teachers`, `periods` and a `Calendar` table (created in DAX) connect to it with one-to-many relationships and single-direction filtering. `classes` connects through `students`.
 
-![Data model](images/data-model.png)
+<img src="images/data-model.png" width="700" alt="Data model">
 
 **Data preparation in Power Query**
 - Imported the CSV files and set correct data types
@@ -87,16 +87,16 @@ The report has four pages with one style, a header, a KPI zone and an analytics 
 ## 🖼 Screenshots
 
 **Academic Performance Overview**<br>
-![Academic Performance Overview](images/dashboard-overview.png)
+<img src="images/dashboard-overview.png" width="700" alt="Academic Performance Overview">
 
 **Class Performance**<br>
-![Class Performance](images/dashboard-class-performance.png)
+<img src="images/dashboard-class-performance.png" width="700" alt="Class Performance">
 
 **Class Details (drill-through)**<br>
-![Class Details](images/dashboard-class-details.png)
+<img src="images/dashboard-class-details.png" width="700" alt="Class Details">
 
 **Analytics & Time Intelligence**<br>
-![Analytics & Time Intelligence](images/dashboard-analytics.png)
+<img src="images/dashboard-analytics.png" width="700" alt="Analytics & Time Intelligence">
 
 ---
 
